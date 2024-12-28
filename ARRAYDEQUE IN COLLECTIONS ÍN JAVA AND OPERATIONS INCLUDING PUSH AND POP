@@ -1,0 +1,17 @@
+//INPUT
+import java.util.ArrayDeque;
+class javaCollections{
+    public static void main(String[] args){
+        ArrayDeque<String> Name=new ArrayDeque<>();
+        Name.push("Ankit");
+        Name.push("Ankush");
+        System.out.println(Name);
+        Name.pop();
+        System.out.println(Name);
+        
+    }
+}
+//ARRAYDEQUE IN COLLECTIONS ÍN JAVA AND OPERATIONS INCLUDING PUSH AND POP
+//OUPUT
+[Ankush, Ankit]
+[Ankit]
